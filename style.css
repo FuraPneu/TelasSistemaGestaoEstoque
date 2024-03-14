@@ -1,0 +1,88 @@
+/* Atualizações para um design elegante em tons de rosa e verde */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff0f5; /* Um suave fundo rosa */
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fundo branco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Bordas arredondadas */
+  }
+  
+  header {
+    background-color: #004d40; /* Verde profundo para cabeçalho */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .header-logo .logo-symbol {
+    background-color: #4CAF50; /* Verde claro para o símbolo, ajustado para representar a libélula */
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  
+  .form-group, .action-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label, .action-group label {
+    font-weight: bold;
+    color: #880e4f; /* Tom de rosa escuro para texto */
+    margin-right: 10px;
+    width: 20%; /* Define a largura para alinhamento */
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="number"],
+  .form-group select,
+  .form-group textarea,
+  button, .btn {
+    flex: 1; /* Permite que o campo de input ocupe o espaço restante */
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .form-group textarea {
+    height: 100px; /* Altura específica para área de texto */
+  }
+  
+  button, .btn {
+    background-color: #ff4081; /* Rosa vibrante */
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover, .btn:hover {
+    background-color: #f50057; /* Rosa mais escuro ao passar o mouse */
+  }
+  
+  table th, table td {
+    padding: 12px;
+    border: 1px solid #eee; /* Bordas suaves para as células da tabela */
+  }
+  
+  table th {
+    background-color: #ff80ab; /* Cabeçalho da tabela em rosa */
+    color: #ffffff; /* Texto branco para contraste */
+  }
+  
+  .action-icons {
+    color: #004d40; /* Ícones em verde, alinhando com a paleta */
+  }
+  
+  /* Adaptações adicionais conforme necessário */
+  

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadastro de Produtos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Cadastro de Produtos</h1>
+  <form id="product-form">
+    <div class="form-group">
+      <label for="product-name">Nome do Produto:</label>
+      <input type="text" id="product-name" name="product-name">
+    </div>
+    <div class="form-group">
+      <label for="product-price">Preço:</label>
+      <input type="number" id="product-price" name="product-price">
+    </div>
+    <div class="form-group">
+      <label for="product-stock">Estoque:</label>
+      <input type="number" id="product-stock" name="product-stock">
+    </div>
+    <div class="form-group">
+      <label for="product-category">Categoria:</label>
+      <select id="product-category" name="product-category">
+        <option value="vestuario">Vestuário</option>
+        <option value="eletronicos">Eletrônicos</option>
+        <!-- Outras categorias -->
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="product-description">Descrição:</label>
+      <textarea id="product-description" name="product-description"></textarea>
+    </div>
+    <button type="submit">Cadastrar Produto</button>
+  </form>
+</div>
+</body>
+</html>

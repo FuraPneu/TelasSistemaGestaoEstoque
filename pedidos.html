@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gestão de Pedidos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Gestão de Pedidos</h1>
+  <div class="action-group">
+    <label for="search-order">Buscar Pedido:</label>
+    <input type="text" id="search-order" name="search-order" placeholder="Digite o ID do pedido ou nome do cliente">
+    <button class="btn">Buscar</button>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>ID Pedido</th>
+        <th>Data</th>
+        <th>Cliente</th>
+        <th>Status</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Itens de pedido serão adicionados aqui -->
+      <tr>
+        <td>1</td>
+        <td>2024-03-13</td>
+        <td>João Silva</td>
+        <td>Enviado</td>
+        <td>
+          <span class="action-icons" title="Editar">&#9998;</span>
+          <span class="action-icons" title="Excluir">&#10060;</span>
+        </td>
+      </tr>
+      <!-- Mais pedidos -->
+    </tbody>
+  </table>
+</div>
+</body>
+</html>
